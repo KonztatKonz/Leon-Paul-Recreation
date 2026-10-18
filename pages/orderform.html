@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon Paul Philippines - Iconic Fencing Equipment made in London</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon", sizes="32x32", href="https://www.leonpaul.com/static/version1791810177/frontend/Develo/leonpaul/en_GB/Magento_Theme/favicon.png">
+</head>
+<body>
+    <header class="site-header">
+        <a href="../index.html" aria-label="Leon Paul Philippines home">
+            <img src="https://www.leonpaul.com/static/version1791810177/frontend/Develo/leonpaul/en_GB/images/logo.svg" alt="Leon Paul Philippines">
+        </a>
+    </header>
+
+    <nav class="btnz" aria-label="Main navigation">
+        <a class="navbtn" href="category.html?category=#uniform">Uniforms</a>
+        <a class="navbtn" href="category.html?category=#mask">Masks</a>
+        <a class="navbtn" href="category.html?category=#weapon">Weapons</a>
+        <a class="navbtn" href="category.html?category=#accessory">Accessories</a>
+        <a class="navbtn" href="aboutus.html?aboutus">About us</a>
+    </nav>
+    
+    <br>
+    <br>
+    <h2>Order Form</h2>
+    <form>
+        <pre>
+        <label>Full Name:</label>
+        <input type="text" id="customer" name="customer">
+        <br>
+        <label>Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label>Select A Product</label>
+        <select required>
+            <option value="">Select a Product</option>
+            <option value="uniform">FIE Apex Jacket</option>
+            <option value="uniform">FIE Apex Breeches</option>
+            <option value="uniform">FIE Apex Plastron</option>
+            <option value="mask">Apex Epee Mask</option>
+            <option value="mask">Apex Sabre Mask</option>
+            <option value="mask">Apex Foil Mask</option>
+            <option value="weapon">FIE Apex Epee</option>
+            <option value="weapon">FIE Apex Foil</option>
+            <option value="weapon">FIE Apex Sabre</option>
+            <option value="acc">2 Pin Body Wire</option>
+            <option value="acc">3 Prong Epee Wire</option>
+            <option value="acc">Foil Body Wire</option>
+        </select>
+        <br>
+        <label>Quantity</label><br>
+        <input type="number" required>
+        <hr>
+        <label>Mode of Payment</label>
+        <input type="radio" name="payment" value="Paypal">
+        <label for="Paypal">Paypal</label>
+        <input type="radio" name="payment" value="COD">
+        <label for="COD">COD</label>
+        <hr>
+        <input type="checkbox" id="protection" name="protection">
+        <label for="protection">Electronics Protection?</label> 
+        <br>
+        <label for="notes">Additional Notes:</label>
+        <textarea id="notes" names="notes" rows="4" cols="35"></textarea>
+        <br>
+        <input type="submit" value="Submit Order"> <input type="reset" value="Clear Form">
+        </pre>
+    </form>
+
+    
+    <footer class="ftr">
+        <p>@ 2026 Leon Paul Philippines, all rights reserved</p>
+        <div id="imp">
+            <a href="orderform.html?orderform">Order Form</a>
+            <a href="pricelist.html?pricelist">Price List</a>
+        </div>
+    </footer>    
+</body>
+</html>
